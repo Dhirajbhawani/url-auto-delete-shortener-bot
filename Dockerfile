@@ -12,4 +12,4 @@ WORKDIR /Eva
 COPY start.sh /start.sh
 COPY . .
 CMD ["/bin/bash", "/start.sh"]
-Expose 3306
+
