@@ -17,7 +17,7 @@ API_HASH = environ.get('API_HASH', 'd1f2924cfa66d350434fa67358b24015')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6807961643:AAGmfMarDHKWtaHbt3nTD-NX9emNxS1VAUI")
 
 #Port
-PORT = environ.get("PORT", "80")
+PORT = environ.get("PORT", "8080")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
